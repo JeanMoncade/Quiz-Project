@@ -1,19 +1,19 @@
-#Quiz
+# Quiz
 
-##Elaboration d'un quiz sur python
+## Elaboration d'un quiz sur python
 
 J'ai réalisé un quiz simplifié pour m'entrainer sur les boucles python.
 
 Pour commencer ce quiz, l'utilisateur doit au préalable insérer un mot de passe pour activer le quiz :
 
-'''
+```
 mdp = input("quel est le mot de passe ?")
 
 while mdp != "jedha":
     print("Ceci n'est pas le mot de passe")
     mdp = input("quel est le mot de passe")
     break
-'''
+```
 
 Grâce à cette boucle le code va demander le mot de passe pour lancer le quiz.
 Si le bon mot de passe, jedha, est rendu en réponse alors l'utilisateur pourra accéder au quiz.
@@ -23,7 +23,8 @@ De plus, on souhaite donner 3 chances au joueur du quiz.
 Pour cela on va donc définir la variable nb_de_chances pour ensuite l'insérer dans nos boucles et ainsi limiter
 le nombre de chance totale à 3 sur l'ensemble des questions.
 
-'''nb_de_chances = 3
+'''
+nb_de_chances = 3
 print("Voici notre quiz, tu as trois chances !")
 '''
 
